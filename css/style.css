@@ -1,0 +1,46 @@
+body {
+  background: whitesmoke;
+}
+
+.navbar {
+  color: white;
+  font-size: xx-large;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-image-1 {
+  background: url(../img/image1.jpg);
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url(../img/image2.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../img/image3.jpg);
+  background-size: cover;
+}
+.carousel-image-4 {
+  background: url(../img/image4.jpg);
+  background-size: cover;
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -750px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#video-play a {
+  color: whitesmoke;
+}
